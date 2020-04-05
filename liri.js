@@ -117,7 +117,7 @@ function findSong() {
                 + "Song title: " + response.tracks.items[i].name + "\r\n "
                 + "Preview:  " + response.tracks.items[i].preview_url + "\r\n "
                 + "Album : " + response.tracks.items[i].album.name;
-                + "\n----------------\n";
+                + "----------------";
 
                 fs.appendFile("log.txt", "\r\n " + printText, function(error) {
                     if (error) {
@@ -155,7 +155,7 @@ function findConcert() {
                 + "Venue: " + response.data[i].venue.name + "\r\n"
                 + "Location: " + response.data[i].venue.region + "\r\n"
                 + "Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY")
-                + "\n----------------\n";
+                + "----------------";
 
                 fs.appendFile("log.txt", "\r\n " + printText, function(error) {
                     if (error) {
@@ -202,7 +202,7 @@ function findMovie() {
             + "Country: " + response.data.Country + "\r\n "
             + "Language(s): " + response.data.Language + "\r\n "
             + "Plot: " + response.data.Plot + "\r\n "
-            + "\n----------------\n";
+            + "----------------";
 
             fs.appendFile("log.txt", "\r\n " + printText, function(error) {
                 if (error) {
