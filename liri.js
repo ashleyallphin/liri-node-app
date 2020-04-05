@@ -1,171 +1,224 @@
-//requre dotenv
+
+// VARIABLES ------------------------------------------------------------------
 require("dotenv").config();
 
-
-//require keys.js
-var keys = require('./keys.js');
-
-//packages
-var Spotify = require ('node-spotify-api');
-var request = require ('request');
-var moment = require ('moment');
-
-
+var keys = require("./keys.js");
+var moment = require("moment");
+var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
+var axios = require("axios");
 
-var fs = require ("fs"); 
+// include file system module
+var fs = require("fs");
 
-var nodeArguments = process.argv;
+//user inputs
+var input = process.argv.slice(2);
+var commandLine = input[0];
+var param = input.slice(1);
 
-var searchTerm = "";
-var nextSearchTerm = "";
+//search terms
+var movie = [];
+var song = [];
+var artist = [];
 
-for (var i = 3; i < nodeArguments.length; i++) {
 
-    if (i > 3 && i < nodeArguments.length) {
-        searchTerm = searchTerm + "%20" + nodeArguments[i];
-    }
-    else {
-        searchTerm += nodeArguments[i];
-    }
-    console.log(searchTerm);
+// INPUT POSSIBILITIES ------------------------------------------------------------------
+
+
+//if input is "do-what-it-says", run function doIt()
+//if anything else, run switchCase()
+if (commandLine === "do-what-it-says") {
+    doIt();
+} else {
+    switchCase();
 }
 
-
-var commandLine = process.argv[2];
-console.log(commandLine);
-console.log(process.argv);
-findIt();
-
-//call LIRI bot
-function findIt() {
-    //switch statement for each command
-    switch (commandLine) {
-        
-        //to use Bands in Town
-        case "concert-this":
-
-            var queryURL = "https://rest.bandsintown.com/artists/" + searchTerm + "/events?app_id=codingbootcamp"
-            request(queryURL, function (error, response, body) {
-                if (!error && response.statusCode === 200) {
-                    var data = JSON.parse(body);
-                    for (var i = 0; i < data.length; i++) {
-                        console.log("Venue: " + data[i].venue.name);
-                        fs.appendFileSync("log.txt", "Venue: " + data[i].venue.name + "\n", function (error) {
-                            if (error) {
-                                console.log(error);
-                            };
-                        });
-
-                        if (data[i].venue.region == "") {
-                            console.log("Location: " + data[i].venue.city + ", " + data[i].venue.country);
-                                if (error) {
-                                    console.log(error);
-                                
-                            };
-
-                        } else {
-                            console.log("Location: " + data[i].venue.city + ", " + data[i].venue.region + ", " + data[i].venue.country);
-                            
-                        }
-
-                        var date = data[i].datetime;
-                        date = moment(date).format("MM/DD/YYYY");
-                        console.log("Date: " + date)
-                        fs.appendFileSync("log.txt", "Date: " + date + "\n("******************")n", function (error) {
-                            if (error) {
-                                console.log(error);
-                            };
-                        });
-                        console.log("******************")
-                    }
-                }
-            });
-
-            break;
-
-
-        //to search Spotify
-        case "spotify-this-song":
-
-                    //if there's no song, return Ace of Base's "The Sign"
-                    if (!searchTerm) {
-                        searchTerm = "The%20Sign%20Ace%20of%20Base";
-                        nextsearchTerm = searchTerm.replace(/%20/g, " ");
-                    }
-            
-            spotify.search({
-                type: "track",
-                query: searchTerm
-            }, function (err, data) {
-                
-                
-                if (err) {
-                    console.log("Error occured: " + err)
-                }
-
-                var results = data.tracks.items;
-
-                for (var i = 0; i < results.length; i++) {
-                    var albumObject = results[i].album;
-                    var trackName = results[i].name;
-                    var preview = results[i].preview_url;
-                    var artistsResults = albumObject.artists;
-                    for (var j = 0; j < artistsResults.length; j++) {
-                        console.log("Artist: " + artistsResults[j].name);
-                        console.log("Song: " + trackName);
-                        console.log("Song preview: " + preview);
-                        console.log("Album: " + albumObject.name);
-                        console.log("******************")
-                    }
-                }
-            })
-
-            break;
-
-
-
-        case "movie-this":
-            //if there's no movie name, use Mr. Nobody
-            if (!searchTerm) {
-                searchTerm = "Mr%20Nobody";
-                nextsearchTerm = searchTerm.replace(/%20/g, " ");
-            }
-
-            var queryURL = "https://www.omdbapi.com/?t=" + searchTerm + "&y=&plot=short&apikey=trilogy"
-            request(queryURL, function (error, response, body) {
-                if (!error && response.statusCode === 200) {
-                    var results = JSON.parse(body);
-                    console.log("Title of the movie: " + results.Title);
-                    console.log("Year the movie came out: " + results.Year);
-                    console.log("IMDB Rating of the movie: " + results.Ratings[0].Value);
-                    console.log("Rotten Tomatoes Rating of the movie: " + results.Ratings[1].Value);
-                    console.log("Country where the movie was produced: " + results.Country);
-                    console.log("Language of the movie: " + results.Language);
-                    console.log("Plot of the movie: " + results.Plot);
-                    console.log("Actors in the movie: " + results.Actors);
-
-                }
-            });
-
-            break;
-    }
-}
-
-if (commandLine == "do-what-it-says") {
-    var fs = require("fs");
-
-    //Read random.txt file
-    fs.readFile("random.txt", "utf8", function (error, data) {
+//function to read random.txt (search for song "I Want It That Way")
+function doIt() {
+    fs.readFile("random.txt", "utf8", function(error, data) {
         if (error) {
-            return console.log(error)
+            console.error("An error occured: " + error);
+            return;
         }
-
-        var textArr = data.split(",");
-        commandLine = textArr[0];
-        searchTerm = textArr[1];
-        findIt();
-    })
+        var randomTxt = data.split(",");
+        commandLine = randomTxt[0];
+        param = randomTxt.slice(1);
+        switchCase();
+    });
 }
 
+//switchCase() for each function LIRI can do
+function switchCase() {
+    switch (commandLine) {
+
+        //if "spotify-this-song", run findSong()    
+        case "spotify-this-song":
+            if (Array.isArray(param) && param.length) {
+                searchSong = String(param);
+                song = param.join("").replace(/['"]+/g, "");
+                findSong();
+            } else {
+            //if no movieInput, use search term "the sign"
+                song = "the sign";
+                findSong();
+            }
+            break;
+
+        //if "movie-this", run findMovie()
+        case "movie-this":
+            if (Array.isArray(param) && param.length) {
+                movieInput = String(param);
+                movie = param.join("+").replace(/['"]+/g, "");
+                findMovie();
+            } else {
+                //if no movieInput, use search term "Mr.Nobody"
+                movie = "Mr.Nobody";
+                findMovie();
+            }
+            break;
+    
+            //if "concert-this", run findConcert()
+        case "concert-this":
+            if (Array.isArray(param) && param.length) {
+                searchArtist = String(param);
+                artist = param.join("").replace(/['"]+/g, "");
+                findConcert();
+            } else {
+            //if no artist input, use search term "garth brooks"
+                artist = "garth brooks";
+                findConcert();
+            }
+            break;
+
+        //default case, if commandLine isn't recognized    
+        default:
+            console.log("LIRI doesn't know that.")
+    
+    }
+}
+
+// CALL FUNCTIONS ------------------------------------------------------------------
+
+
+//Spotify search function
+function findSong() {
+    spotify
+        .search({ type: "track", query: song })
+        .then(function(response) {
+            for (var i = 0; i < 5; i++) {
+                
+                console.log("Search term: " + searchSong);
+                console.log("Artist: " + response.tracks.items[i].artists[0].name);
+                console.log("Song title: " + response.tracks.items[i].name);
+                console.log("Preview: " + response.tracks.items[i].preview_url);
+                console.log("Album: " + response.tracks.items[i].album.name);
+                console.log("------------------------");
+
+                printText = "Search term: " + searchSong + "\r\n "
+                + "Artist: " + response.tracks.items[i].artists[0].name + "\r\n "
+                + "Song title: " + response.tracks.items[i].name + "\r\n "
+                + "Preview:  " + response.tracks.items[i].preview_url + "\r\n "
+                + "Album : " + response.tracks.items[i].album.name;
+                + "\n----------------\n";
+
+                fs.appendFile("log.txt", "\r\n " + printText, function(error) {
+                    if (error) {
+                        return console.log("An error occurred: " + error);
+                    }
+                    else {
+                        console.log("Added to log.txt!")
+                    }
+                });
+            }
+        })
+        .catch(function(error) {
+            console.log("An error occurred: " + error);
+        });
+}
+
+//Bands in Town search function
+function findConcert() {
+    var BandsInTownQueryURL =
+        "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+
+    axios
+        .get(BandsInTownQueryURL)
+        .then(function(response) {
+            for (var i = 0; i < 5; i++) {
+
+                console.group("Artist: " + artist);
+                console.log("Venue: " + response.data[i].venue.name );
+                console.log("Location: " + response.data[i].venue.region);
+                console.log("Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY"));
+                console.log("------------------------");
+
+                
+                printText = "Artist: " + artist + "\r\n "
+                + "Venue: " + response.data[i].venue.name + "\r\n"
+                + "Location: " + response.data[i].venue.region + "\r\n"
+                + "Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY")
+                + "\n----------------\n";
+
+                fs.appendFile("log.txt", "\r\n " + printText, function(error) {
+                    if (error) {
+                        return console.log("An error occured: " + error);
+                    }
+                    else {
+                        console.log ("Added to log.txt!")
+                    }
+                });
+            }
+        })
+        .catch(function(error) {
+            if (error) {
+                console.log("An error occured: " + error);
+            }
+        });
+}
+
+//OMDB search function
+function findMovie() {
+    var omdbQueryURL =
+        "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+    
+    axios
+        .get(omdbQueryURL)
+        .then(function(response) {
+            console.log("Movie Title: " + response.data.Title);
+            console.log("Year: " + response.data.Year);
+            console.log("Actors: " + response.data.Actors);
+            console.log("IMDB Rating: " + response.data.imdbRating);
+            console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+            console.log("Country: " + response.data.Country);
+            console.log("Language(s): " + response.data.Language);
+            console.log("Plot: " + response.data.Plot);
+            console.log("------------------------");
+
+
+            printText =
+            "Movie Title: " + response.data.Title + "\r\n "
+            + "Year: " + response.data.Year + "\r\n "
+            + "Actors: " + response.data.Actors + "\r\n "
+            + "IMDB Rating: " + response.data.imdbRating + "\r\n "
+            + "Rotten Tomatoes rating: " + response.data.Ratings[1].Value + "\r\n"
+            + "Country: " + response.data.Country + "\r\n "
+            + "Language(s): " + response.data.Language + "\r\n "
+            + "Plot: " + response.data.Plot + "\r\n "
+            + "\n----------------\n";
+
+            fs.appendFile("log.txt", "\r\n " + printText, function(error) {
+                if (error) {
+                    return console.log("An error occured: " + error);
+                }
+                else {
+                    console.log ("Added to log.txt!")
+                }
+            });
+        })
+        .catch(function(error) {
+            if (error) {
+                console.log("An error occured: " + error);
+            }
+        });
+}
 

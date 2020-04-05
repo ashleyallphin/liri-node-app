@@ -1,238 +1,217 @@
-work
-----------------
-Artist: J. Cole
-Song Name: Work Out
-Preview of Song: null
-Album Name: Cole World: The Sideline Story
-----------------
-Artist: Rihanna
-Song Name: Work
-Preview of Song: null
-Album Name: ANTI (Deluxe)
-----------------
-Artist: Fifth Harmony
-Song Name: Work from Home (feat. Ty Dolla $ign)
-Preview of Song: https://p.scdn.co/mp3-preview/b2d6e6ea9163eb361f5406f75264de490243964a?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: 7/27 (Deluxe)
-----------------
-Artist: Hozier
-Song Name: Work Song
-Preview of Song: https://p.scdn.co/mp3-preview/933336edfd735e25178c8eda961f0ea5604bce04?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Hozier (Expanded Edition)
-----------------
-Artist: Ashnikko
-Song Name: Working Bitch
-Preview of Song: https://p.scdn.co/mp3-preview/eed67c3d4377605a196ca370561e4b45551c0ccf?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Hi, It's Me
-----------------
-Artist: A$AP Ferg
-Song Name: Work REMIX (feat. A$AP Rocky, French Montana, Trinidad James & ScHoolboy Q)
-Preview of Song: https://p.scdn.co/mp3-preview/0255172e91edc745416b611a7d77966c6fc9c6eb?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Trap Lord
-----------------
-Artist: Colt Ford
-Song Name: Workin' on
-Preview of Song: https://p.scdn.co/mp3-preview/0805a9f57265f0abf90890f2fd3c2e45db384069?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Thanks for Listening
-----------------
-Artist: Missy Elliott
-Song Name: Work It
-Preview of Song: https://p.scdn.co/mp3-preview/a007b4cabe8441d6d878da45bc3b71471848101e?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Under Construction
-----------------
-Artist: Loverboy
-Song Name: Working for the Weekend
-Preview of Song: https://p.scdn.co/mp3-preview/3fb4df4d5c847e68185ab29628e1a09006fe8e01?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Get Lucky
-----------------
-Artist: Britney Spears
-Song Name: Work Bitch
-Preview of Song: https://p.scdn.co/mp3-preview/099a16ea80fddbd592595592c4587da4d0a923d2?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Britney Jean (Deluxe Version)
-----------------
-Artist: Charlotte Day Wilson
-Song Name: Work
-Preview of Song: https://p.scdn.co/mp3-preview/5b8fe4cb8f7edf09fb77dd4c6d6c5941c9523610?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Work
-----------------
-Artist: Quavo
-Song Name: WORKIN ME
-Preview of Song: null
-Album Name: QUAVO HUNCHO
-----------------
-Artist: JID
-Song Name: Workin Out
-Preview of Song: null
-Album Name: DiCaprio 2
-----------------
-Artist: Wiz Khalifa
-Song Name: Work Hard, Play Hard
-Preview of Song: https://p.scdn.co/mp3-preview/09c4e00ef5ad7d7a41cccdc464c0c3707557dac6?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: O.N.I.F.C. (Deluxe)
-----------------
-Artist: Rush
-Song Name: Working Man
-Preview of Song: null
-Album Name: Rush
-----------------
-Artist: Kane Brown
-Song Name: Work
-Preview of Song: https://p.scdn.co/mp3-preview/a90887942336e7fe762f831bae5f9e88e1a5793d?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Experiment Extended
-----------------
-Artist: Gang Starr
-Song Name: Work
-Preview of Song: null
-Album Name: Moment Of Truth
-----------------
-Artist: ZHU
-Song Name: Working For It - Bonus Track
-Preview of Song: https://p.scdn.co/mp3-preview/5e72c47c060e697fb2939217a110c72de5388e70?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: GENERATIONWHY
-----------------
-Artist: Iggy Azalea
-Song Name: Work
-Preview of Song: null
-Album Name: The New Classic
-----------------
-Artist: Jake Scott
-Song Name: Working for You
-Preview of Song: https://p.scdn.co/mp3-preview/08d88398aab0a48d7b4d66e6c06704f355e92616?cid=f4800e1947484513b286c88a0e7c9353
-Album Name: Working for You
-----------------
-chris
-----------------
-Venue: ZENITH D'ORLEANS
-Location: Orléans, France
-Date: 11/05/2020
-----------------
-Venue: Zénith d'Auvergne
-Location: Cournon D Auvergne, France
-Date: 11/06/2020
-----------------
-Venue: ZENITH SUD
-Location: Montpellier, France
-Date: 11/07/2020
-----------------
-Venue: Dunkirk Kursaal
-Location: Dunkerque, France
-Date: 11/12/2020
-----------------
-Venue: LE MUSIKHALL
-Location: Rennes, France
-Date: 11/13/2020
-----------------
-Venue: Amphitéa
-Location: Angers, France
-Date: 11/14/2020
-----------------
-Venue: ARKEA ARENA
-Location: Floirac, France
-Date: 11/19/2020
-----------------
-Venue: Zénith de Toulouse
-Location: Toulouse, France
-Date: 11/20/2020
-----------------
-Venue: Zénith Limoges Métropole
-Location: Limoges, France
-Date: 11/21/2020
-----------------
-Venue: Dôme (SPIROUDOME)
-Location: Charleroi, Belgium
-Date: 11/26/2020
-----------------
-Venue: Galaxie Amnéville
-Location: Amnéville, France
-Date: 11/27/2020
-----------------
-Venue: ZENITH DE STRASBOURG ZENITH EUROPE
-Location: Eckbolsheim, France
-Date: 11/28/2020
-----------------
-Venue: Zénith de Rouen
-Location: Le Petit-quevilly, France
-Date: 12/03/2020
-----------------
-Venue: Zenith Caen
-Location: Caen, France
-Date: 12/04/2020
-----------------
-Venue: Zenith Nantes Metropole
-Location: Saint-herblain, France
-Date: 12/05/2020
-----------------
-Venue: LE DOME
-Location: 4, France
-Date: 12/10/2020
-----------------
-Venue: ZENITH AMIENS
-Location: Amiens, France
-Date: 12/17/2020
-----------------
-Venue: Accorhotels Arena
-Location: Paris, France
-Date: 12/18/2020
-----------------
-Venue: Zénith de Lille
-Location: Lille, France
-Date: 12/19/2020
-----------------
-Venue: Zénith de Lille
-Location: Lille, France
-Date: 12/20/2020
-----------------
-kanye
-----------------
-band
-----------------
-Title: Save the Last Dance
-Release Year: 2001
-IMDB Rating: 6.2/10
-Rating: 53/100
-Country: USA
-Language: English
-Plot: A white midwestern girl moves to Chicago, where her new boyfriend is a black teen from the South Side with a rough, semi-criminal past.
-Actors: Julia Stiles, Sean Patrick Thomas, Kerry Washington, Fredro Starr
-----------------
 
-----------------
-
-----------------
-Venue: Beach Road Weekend
-Location: Vineyard Haven, MA, United States
-Date: 07/24/2020
-----------------
-Venue: Levoy Theatre
-Location: Millville, NJ, United States
-Date: 09/26/2020
-----------------
-Venue: Royale
-Location: Boston, MA, United States
-Date: 10/23/2020
-----------------
-
-----------------
-Title: Save the Last Dance
-Release Year: 2001
-IMDB Rating: 6.2/10
-Rating: 53/100
-Country: USA
-Language: English
-Plot: A white midwestern girl moves to Chicago, where her new boyfriend is a black teen from the South Side with a rough, semi-criminal past.
-Actors: Julia Stiles, Sean Patrick Thomas, Kerry Washington, Fredro Starr
-----------------
-
-----------------
-Venue: Beach Road Weekend
-Location: Vineyard Haven, MA, United States
-Date: 07/24/2020
-----------------
-Venue: Levoy Theatre
-Location: Millville, NJ, United States
-Date: 09/26/2020
-----------------
-Venue: Royale
-Location: Boston, MA, United States
-Date: 10/23/2020
-----------------
+ Song Input girl
+ Artist: Summer Walker
+ Song name: Girls Need Love (with Drake) - Remix
+ Preview URL:  null
+ Album the song is on: Last Day Of Summer
+ 
+ Song Input girl
+ Artist: Myke Towers
+ Song name: Girl
+ Preview URL:  https://p.scdn.co/mp3-preview/4ae37e956c60463cd52d3251c3ecca93dad4120e?cid=f4800e1947484513b286c88a0e7c9353
+ Album the song is on: Easy Money Baby
+ 
+ Song Input girl
+ Artist: Maren Morris
+ Song name: GIRL
+ Preview URL:  https://p.scdn.co/mp3-preview/6d9117232204a352333ba7f29a9f6534c8457a9e?cid=f4800e1947484513b286c88a0e7c9353
+ Album the song is on: GIRL
+ 
+ Song Input girl
+ Artist: Maroon 5
+ Song name: Girls Like You (feat. Cardi B)
+ Preview URL:  null
+ Album the song is on: Red Pill Blues (Deluxe)
+ 
+ Song Input "I Want it That Way"
+ Artist: Backstreet Boys
+ Song name: I Want It That Way
+ Preview URL:  https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f4800e1947484513b286c88a0e7c9353
+ Album the song is on: The Hits--Chapter One
+ 
+ Song Input "I Want it That Way"
+ Artist: Mick Jensen
+ Song name: I Want It That Way
+ Preview URL:  https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=f4800e1947484513b286c88a0e7c9353
+ Album the song is on: I Want It That Way
+ 
+ Song Input "I Want it That Way"
+ Artist: Anthem Lights
+ Song name: I Want It That Way
+ Preview URL:  https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f4800e1947484513b286c88a0e7c9353
+ Album the song is on: Covers Part IV
+ 
+ Song Input "I Want it That Way"
+ Artist: Tyler and Mark
+ Song name: I Want It That Way
+ Preview URL:  https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f4800e1947484513b286c88a0e7c9353
+ Album the song is on: Beautiful Dreams
+ 
+ Search term: "I Want it That Way"
+ Artist: Backstreet Boys
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Hits--Chapter One
+ 
+ Search term: "I Want it That Way"
+ Artist: Anthem Lights
+ Song name: I Want It That Way / Bye Bye Bye
+ Preview:  https://p.scdn.co/mp3-preview/82b2ff786fedce4e1a314d69f15ff5c705049ef5?cid=f4800e1947484513b286c88a0e7c9353
+ Album : I Want It That Way / Bye Bye Bye
+ 
+ Search term: "I Want it That Way"
+ Artist: Mick Jensen
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=f4800e1947484513b286c88a0e7c9353
+ Album : I Want It That Way
+ 
+ Search term: "I Want it That Way"
+ Artist: Tyler and Mark
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Beautiful Dreams
+ 
+ Search term: "I Want it That Way"
+ Artist: Anthem Lights
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Covers Part IV
+ 
+ Search term: "I Want it That Way"
+ Artist: Backstreet Boys
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Hits--Chapter One
+ 
+ Search term: "I Want it That Way"
+ Artist: Mick Jensen
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=f4800e1947484513b286c88a0e7c9353
+ Album : I Want It That Way
+ 
+ Search term: "I Want it That Way"
+ Artist: Anthem Lights
+ Song name: I Want It That Way / Bye Bye Bye
+ Preview:  https://p.scdn.co/mp3-preview/82b2ff786fedce4e1a314d69f15ff5c705049ef5?cid=f4800e1947484513b286c88a0e7c9353
+ Album : I Want It That Way / Bye Bye Bye
+ 
+ Search term: "I Want it That Way"
+ Artist: Tyler and Mark
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Beautiful Dreams
+ 
+ Search term: "I Want it That Way"
+ Artist: Anthem Lights
+ Song name: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Covers Part IV
+ 
+ Artist: garth brooks
+ Venue: Bank of America Stadium
+Location: NC
+Date: 06/13/2020
+ Artist: garth brooks
+ Venue: Allegiant Stadium
+Location: NV
+Date: 08/22/2020
+ Artist: garth brooks
+ Venue: Paul Brown Stadium
+Location: OH
+Date: 06/27/2020
+ Movie Title: Mr. Nobody
+ Year: 2009
+ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+ IMDB Rating: 7.8
+ Rotten Tomatoes rating: 67%
+Country: Belgium, Germany, Canada, France, UK, Luxembourg
+ Language(s): English, Mohawk
+ Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+ 
+ Artist: garth brooks
+ Venue: Bank of America Stadium
+Location: NC
+Date: 06/13/2020
+ Artist: garth brooks
+ Venue: Paul Brown Stadium
+Location: OH
+Date: 06/27/2020
+ Artist: garth brooks
+ Venue: Allegiant Stadium
+Location: NV
+Date: 08/22/2020
+ Search term: dance
+ Artist: Tones And I
+ Song title: Dance Monkey
+ Preview:  https://p.scdn.co/mp3-preview/535ffea66207a0fc07d57fbaea7b5594be797f9b?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Dance Monkey (Stripped Back) / Dance Monkey
+ Search term: dance
+ Artist: Troye Sivan
+ Song title: Dance To This (feat. Ariana Grande)
+ Preview:  null
+ Album : Bloom
+ Search term: dance
+ Artist: boy pablo
+ Song title: Dance, Baby!
+ Preview:  https://p.scdn.co/mp3-preview/3242b5113865560cbdeae06afe5a2bfcbd93d5d4?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Roy Pablo
+ Search term: dance
+ Artist: Fall Out Boy
+ Song title: Dance, Dance
+ Preview:  null
+ Album : From Under The Cork Tree
+ Search term: dance
+ Artist: Selena Gomez
+ Song title: Dance Again
+ Preview:  null
+ Album : Rare
+ Search term: dance
+ Artist: Tones And I
+ Song title: Dance Monkey
+ Preview:  https://p.scdn.co/mp3-preview/535ffea66207a0fc07d57fbaea7b5594be797f9b?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Dance Monkey (Stripped Back) / Dance Monkey
+ Search term: dance
+ Artist: Fall Out Boy
+ Song title: Dance, Dance
+ Preview:  null
+ Album : From Under The Cork Tree
+ Search term: dance
+ Artist: Selena Gomez
+ Song title: Dance Again
+ Preview:  null
+ Album : Rare
+ Search term: dance
+ Artist: Troye Sivan
+ Song title: Dance To This (feat. Ariana Grande)
+ Preview:  null
+ Album : Bloom
+ Search term: dance
+ Artist: boy pablo
+ Song title: Dance, Baby!
+ Preview:  https://p.scdn.co/mp3-preview/3242b5113865560cbdeae06afe5a2bfcbd93d5d4?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Roy Pablo
+ Search term: "I Want it That Way"
+ Artist: Backstreet Boys
+ Song title: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Hits--Chapter One
+ Search term: "I Want it That Way"
+ Artist: Anthem Lights
+ Song title: I Want It That Way / Bye Bye Bye
+ Preview:  https://p.scdn.co/mp3-preview/82b2ff786fedce4e1a314d69f15ff5c705049ef5?cid=f4800e1947484513b286c88a0e7c9353
+ Album : I Want It That Way / Bye Bye Bye
+ Search term: "I Want it That Way"
+ Artist: Anthem Lights
+ Song title: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Covers Part IV
+ Search term: "I Want it That Way"
+ Artist: Tyler and Mark
+ Song title: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Beautiful Dreams
+ Search term: "I Want it That Way"
+ Artist: Mick Jensen
+ Song title: I Want It That Way
+ Preview:  https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=f4800e1947484513b286c88a0e7c9353
+ Album : I Want It That Way
