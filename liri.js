@@ -12,9 +12,7 @@ var axios = require("axios");
 var fs = require("fs");
 
 //user inputs
-var input = process.argv.slice(2);
-var commandLine = input[0];
-var param = input.slice(1);
+var commandLine = process.argv.slice(2)[0];
 
 //search terms
 var movie = [];
@@ -42,7 +40,7 @@ function doIt() {
         }
         var randomTxt = data.split(",");
         commandLine = randomTxt[0];
-        param = randomTxt.slice(1);
+        process.argv.slice(2).slice(1) = randomTxt.slice(1);
         switchCase();
     });
 }
@@ -53,22 +51,22 @@ function switchCase() {
 
         //if "spotify-this-song", run findSong()    
         case "spotify-this-song":
-            if (Array.isArray(param) && param.length) {
-                searchSong = String(param);
-                song = param.join("").replace(/['"]+/g, "");
+            if (Array.isArray(process.argv.slice(2).slice(1)) && process.argv.slice(2).slice(1).length) {
+                searchSong = String(process.argv.slice(2).slice(1));
+                song = process.argv.slice(2).slice(1).join("").replace(/['"]+/g, "");
                 findSong();
             } else {
             //if no movieInput, use search term "the sign"
-                song = "the sign";
+                song = "the sign ace of base";
                 findSong();
             }
             break;
 
         //if "movie-this", run findMovie()
         case "movie-this":
-            if (Array.isArray(param) && param.length) {
-                movieInput = String(param);
-                movie = param.join("+").replace(/['"]+/g, "");
+            if (Array.isArray(process.argv.slice(2).slice(1)) && process.argv.slice(2).slice(1).length) {
+                movieInput = String(process.argv.slice(2).slice(1));
+                movie = process.argv.slice(2).slice(1).join("+").replace(/['"]+/g, "");
                 findMovie();
             } else {
                 //if no movieInput, use search term "Mr.Nobody"
@@ -79,9 +77,9 @@ function switchCase() {
     
             //if "concert-this", run findConcert()
         case "concert-this":
-            if (Array.isArray(param) && param.length) {
-                searchArtist = String(param);
-                artist = param.join("").replace(/['"]+/g, "");
+            if (Array.isArray(process.argv.slice(2).slice(1)) && process.argv.slice(2).slice(1).length) {
+                searchArtist = String(process.argv.slice(2).slice(1));
+                artist = process.argv.slice(2).slice(1).join("").replace(/['"]+/g, "");
                 findConcert();
             } else {
             //if no artist input, use search term "garth brooks"
@@ -107,14 +105,14 @@ function findSong() {
         .then(function(response) {
             for (var i = 0; i < 5; i++) {
                 
-                console.log("Search term: " + searchSong);
+                console.log("Search term: " + song);
                 console.log("Artist: " + response.tracks.items[i].artists[0].name);
                 console.log("Song title: " + response.tracks.items[i].name);
                 console.log("Preview: " + response.tracks.items[i].preview_url);
                 console.log("Album: " + response.tracks.items[i].album.name);
                 console.log("------------------------");
 
-                printText = "Search term: " + searchSong + "\r\n "
+                printText = "Search term: " + song + "\r\n "
                 + "Artist: " + response.tracks.items[i].artists[0].name + "\r\n "
                 + "Song title: " + response.tracks.items[i].name + "\r\n "
                 + "Preview:  " + response.tracks.items[i].preview_url + "\r\n "
