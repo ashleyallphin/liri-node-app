@@ -27,7 +27,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 ### What Each Command Does
 
-1. `node liri.js concert-this <artist/band name here>`
+1. `node liri.js concert-this '<artist/band name here>'`
 
    * This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -96,9 +96,11 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 * In addition to logging the data to terminal/bash window, LIRI will output the data to a .txt file called `log.txt`.
 
+![log.txt screenshot](images/logtxt_screenshot.png)
 
 
-### Technologies Used
+
+### Resources
 
 
    * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
