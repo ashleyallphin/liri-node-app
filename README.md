@@ -37,9 +37,11 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
      * Date of the Event (using moment to format this as "MM/DD/YYYY")
 
+    ![concert-this](images/concert-this.gif)
+
    * If the user doesn't type an artist in, the program will output concert data for 'Garth Brooks'.
 
-     ![concert-this Garth Brooks]()
+    ![concert-this Garth Brooks](images/concert-garth.gif)
     
 
 
@@ -56,13 +58,13 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
      * The album that the song is from
 
 
-![spotify-this-song GIF](images/spotify-this-song.gif)
+    ![spotify-this-song GIF](images/spotify-this-song.gif)
 
 
    * If no song is provided, LIRI  will default to "The Sign" by Ace of Base.
 
    
-![spotify-this-song GIF](images/spotify-the-sign.gif)
+    ![spotify-this-song GIF](images/spotify-the-sign.gif)
 
 
 
@@ -82,6 +84,9 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
        * Actors in the movie.
      ```
 
+     ![movie-this](images/movie-this.gif)
+
+
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
      ![movie-this Mr. Nobody](images/movie-this-mr-nobody.gif)
@@ -95,7 +100,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
      * It will run `spotify-this-song` for "I Want it That Way," as the text requests in `random.txt`.
 
-
+     ![do-what-it-says](images/do-what-it-says.gif)
 
 
 
@@ -131,7 +136,6 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
   * Request-response pattern
   * Axios
   * fs
-
 
 
   ### Learning Objectives
