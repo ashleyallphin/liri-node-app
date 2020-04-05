@@ -1,9 +1,12 @@
-# liri-node-app
+# Homework #10 liri-node-app
 the-Coding-Boot-Camp-at-UT | UTA-VIRT-FSF-PT-01-2020-U-LOL
-Homework #10: LIRI Bot
+
+
 Ashley Allphin
 
 # LIRI Bot
+[Visit on Git Hub](https://github.com/ashleyallphin/liri-node-apps)
+
 
 ### Overview
 
@@ -26,22 +29,22 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 1. `node liri.js concert-this <artist/band name here>`
 
-   * This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
+   * This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
      * Name of the venue
 
      * Venue location
 
-     * Date of the Event (use moment to format this as "MM/DD/YYYY")
+     * Date of the Event (using moment to format this as "MM/DD/YYYY")
 
     
 
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
-   * This will show the following information about the song in your terminal/bash window
+   * This will show the following information about the song in your terminal/bash window:
 
-     * Artist(s)
+     * Artist
 
      * The song's name
 
@@ -49,7 +52,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
      * The album that the song is from
 
-   * If no song is provided then your program will default to "The Sign" by Ace of Base.
+   * If no song is provided, LIRI  will default to "The Sign" by Ace of Base.
 
    
 
@@ -58,7 +61,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 3. `node liri.js movie-this '<movie name here>'`
 
-   * This will output the following information to your terminal/bash window:
+   * This will output the following information to terminal/bash window:
 
      ```
        * Title of the movie.
@@ -82,14 +85,16 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
-     * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+     * It will run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
-     * Edit the text in random.txt to test out the feature for movie-this and concert-this.
+
+
+
 
 
 ### Printing to log.txt
 
-* In addition to logging the data to your terminal/bash window, LIRI will output the data to a .txt file called `log.txt`.
+* In addition to logging the data to terminal/bash window, LIRI will output the data to a .txt file called `log.txt`.
 
 
 
