@@ -286,7 +286,7 @@ Date: 08/22/2020
  Movie Title: Save the Last Dance
  Year: 2001
  Actors: Julia Stiles, Sean Patrick Thomas, Kerry Washington, Fredro Starr
- IMDB Rating: 6.2
+ IMDB Rating: 6.2      
  Rotten Tomatoes rating: 53/100
 Country: USA
  Language(s): English
@@ -374,4 +374,184 @@ Country: Belgium, Germany, Canada, France, UK, Luxembourg
 Country: Belgium, Germany, Canada, France, UK, Luxembourg
  Language(s): English, Mohawk
  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+ ----------------
+ Search term: dance
+ Artist: Tones And I
+ Song title: Dance Monkey
+ Preview:  https://p.scdn.co/mp3-preview/535ffea66207a0fc07d57fbaea7b5594be797f9b?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Dance Monkey (Stripped Back) / Dance Monkey
+ ----------------
+ Search term: dance
+ Artist: Fall Out Boy
+ Song title: Dance, Dance
+ Preview:  null
+ Album : From Under The Cork Tree
+ ----------------
+ Search term: dance
+ Artist: boy pablo
+ Song title: Dance, Baby!
+ Preview:  https://p.scdn.co/mp3-preview/3242b5113865560cbdeae06afe5a2bfcbd93d5d4?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Roy Pablo
+ ----------------
+ Search term: dance
+ Artist: Troye Sivan
+ Song title: Dance To This (feat. Ariana Grande)
+ Preview:  null
+ Album : Bloom
+ ----------------
+ Search term: dance
+ Artist: Selena Gomez
+ Song title: Dance Again
+ Preview:  null
+ Album : Rare
+ ----------------
+ Search term: dance
+ Artist: Tones And I
+ Song title: Dance Monkey
+ Preview:  https://p.scdn.co/mp3-preview/535ffea66207a0fc07d57fbaea7b5594be797f9b?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Dance Monkey (Stripped Back) / Dance Monkey
+ ----------------
+ Search term: dance
+ Artist: Selena Gomez
+ Song title: Dance Again
+ Preview:  null
+ Album : Rare
+ ----------------
+ Search term: dance
+ Artist: Fall Out Boy
+ Song title: Dance, Dance
+ Preview:  null
+ Album : From Under The Cork Tree
+ ----------------
+ Search term: dance
+ Artist: Troye Sivan
+ Song title: Dance To This (feat. Ariana Grande)
+ Preview:  null
+ Album : Bloom
+ ----------------
+ Search term: dance
+ Artist: boy pablo
+ Song title: Dance, Baby!
+ Preview:  https://p.scdn.co/mp3-preview/3242b5113865560cbdeae06afe5a2bfcbd93d5d4?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Roy Pablo
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign - Long Version
+ Preview:  https://p.scdn.co/mp3-preview/ccf516ab83dc899b53817816665cd42388cf6724?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign (The Remixes)
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/02965a67aeec3b3775c91ec1e391ce164c76e488?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Happy Nation (U.S. Version) [Remastered]
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign (The Remixes)
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Greatest Hits
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Greatest Hits
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign - Long Version
+ Preview:  https://p.scdn.co/mp3-preview/ccf516ab83dc899b53817816665cd42388cf6724?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign (The Remixes)
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/02965a67aeec3b3775c91ec1e391ce164c76e488?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Happy Nation (U.S. Version) [Remastered]
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign (The Remixes)
+ ----------------
+ Search term: dance
+ Artist: Tones And I
+ Song title: Dance Monkey
+ Preview:  https://p.scdn.co/mp3-preview/535ffea66207a0fc07d57fbaea7b5594be797f9b?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Dance Monkey (Stripped Back) / Dance Monkey
+ ----------------
+ Search term: dance
+ Artist: Selena Gomez
+ Song title: Dance Again
+ Preview:  null
+ Album : Rare
+ ----------------
+ Search term: dance
+ Artist: boy pablo
+ Song title: Dance, Baby!
+ Preview:  https://p.scdn.co/mp3-preview/3242b5113865560cbdeae06afe5a2bfcbd93d5d4?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Roy Pablo
+ ----------------
+ Search term: dance
+ Artist: Troye Sivan
+ Song title: Dance To This (feat. Ariana Grande)
+ Preview:  null
+ Album : Bloom
+ ----------------
+ Search term: dance
+ Artist: Fall Out Boy
+ Song title: Dance, Dance
+ Preview:  null
+ Album : From Under The Cork Tree
+ ----------------
+ Search term: dance
+ Artist: Tones And I
+ Song title: Dance Monkey
+ Preview:  https://p.scdn.co/mp3-preview/535ffea66207a0fc07d57fbaea7b5594be797f9b?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Dance Monkey (Stripped Back) / Dance Monkey
+ ----------------
+ Search term: dance
+ Artist: Fall Out Boy
+ Song title: Dance, Dance
+ Preview:  null
+ Album : From Under The Cork Tree
+ ----------------
+ Search term: dance
+ Artist: boy pablo
+ Song title: Dance, Baby!
+ Preview:  https://p.scdn.co/mp3-preview/3242b5113865560cbdeae06afe5a2bfcbd93d5d4?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Roy Pablo
+ ----------------
+ Search term: dance
+ Artist: Troye Sivan
+ Song title: Dance To This (feat. Ariana Grande)
+ Preview:  null
+ Album : Bloom
+ ----------------
+ Search term: dance
+ Artist: Selena Gomez
+ Song title: Dance Again
+ Preview:  null
+ Album : Rare
  ----------------

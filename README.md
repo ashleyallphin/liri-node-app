@@ -52,9 +52,14 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
      * The album that the song is from
 
+
+![spotify-this-song GIF](images/spotify-this-song.gif)
+
+
    * If no song is provided, LIRI  will default to "The Sign" by Ace of Base.
 
    
+![spotify-this-song GIF](images/spotify-the-sign.gif)
 
 
 

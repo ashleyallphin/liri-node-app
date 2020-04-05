@@ -116,7 +116,7 @@ function findSong() {
                 + "Artist: " + response.tracks.items[i].artists[0].name + "\r\n "
                 + "Song title: " + response.tracks.items[i].name + "\r\n "
                 + "Preview:  " + response.tracks.items[i].preview_url + "\r\n "
-                + "Album : " + response.tracks.items[i].album.name;
+                + "Album : " + response.tracks.items[i].album.name  + "\r\n "
                 + "----------------";
 
                 fs.appendFile("log.txt", "\r\n " + printText, function(error) {
@@ -154,7 +154,7 @@ function findConcert() {
                 printText = "Artist: " + artist + "\r\n "
                 + "Venue: " + response.data[i].venue.name + "\r\n"
                 + "Location: " + response.data[i].venue.region + "\r\n"
-                + "Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY")
+                + "Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY") + "\r\n"
                 + "----------------";
 
                 fs.appendFile("log.txt", "\r\n " + printText, function(error) {
