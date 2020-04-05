@@ -40,7 +40,7 @@ function doIt() {
         }
         var randomTxt = data.split(",");
         commandLine = randomTxt[0];
-        process.argv.slice(2).slice(1) = randomTxt.slice(1);
+        process.argv.slice(2).slice(1) === randomTxt.slice(1);
         switchCase();
     });
 }

@@ -37,6 +37,9 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
      * Date of the Event (using moment to format this as "MM/DD/YYYY")
 
+   * If the user doesn't type a movie in, the program will output concert data for 'Garth Brooks'.
+
+     ![concert-this Garth Brooks]()
     
 
 
@@ -81,7 +84,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-     
+     ![movie-this Mr. Nobody](images/movie-this-mr-nobody.gif)
 
 
 

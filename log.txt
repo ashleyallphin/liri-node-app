@@ -555,3 +555,125 @@ Country: Belgium, Germany, Canada, France, UK, Luxembourg
  Preview:  null
  Album : Rare
  ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Greatest Hits
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/02965a67aeec3b3775c91ec1e391ce164c76e488?cid=f4800e1947484513b286c88a0e7c9353
+ Album : Happy Nation (U.S. Version) [Remastered]
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign
+ Preview:  https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign (The Remixes)
+ ----------------
+ Search term: the sign ace of base
+ Artist: Ace of Base
+ Song title: The Sign - Long Version
+ Preview:  https://p.scdn.co/mp3-preview/ccf516ab83dc899b53817816665cd42388cf6724?cid=f4800e1947484513b286c88a0e7c9353
+ Album : The Sign (The Remixes)
+ ----------------
+ Artist: garth brooks
+ Venue: Bank of America Stadium
+Location: NC
+Date: 06/13/2020
+----------------
+ Artist: garth brooks
+ Venue: Paul Brown Stadium
+Location: OH
+Date: 06/27/2020
+----------------
+ Artist: garth brooks
+ Venue: Allegiant Stadium
+Location: NV
+Date: 08/22/2020
+----------------
+ Artist: kiss
+ Venue: Accorhotels Arena
+Location: 
+Date: 06/09/2020
+----------------
+ Artist: kiss
+ Venue: Donington Park Circuit
+Location: 
+Date: 06/12/2020
+----------------
+ Artist: kiss
+ Venue: Download Festival
+Location: 
+Date: 06/12/2020
+----------------
+ Artist: kiss
+ Venue: Westfalenhalle 1
+Location: 
+Date: 06/14/2020
+----------------
+ Artist: kiss
+ Venue: Barclaycard Arena Hamburg
+Location: 
+Date: 06/15/2020
+----------------
+ Artist: kiss
+ Venue: Accorhotels Arena
+Location: 
+Date: 06/09/2020
+----------------
+ Artist: kiss
+ Venue: Donington Park Circuit
+Location: 
+Date: 06/12/2020
+----------------
+ Artist: kiss
+ Venue: Download Festival
+Location: 
+Date: 06/12/2020
+----------------
+ Artist: kiss
+ Venue: Westfalenhalle 1
+Location: 
+Date: 06/14/2020
+----------------
+ Artist: kiss
+ Venue: Barclaycard Arena Hamburg
+Location: 
+Date: 06/15/2020
+----------------
+ Movie Title: Mr. Nobody
+ Year: 2009
+ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+ IMDB Rating: 7.8
+ Rotten Tomatoes rating: 67%
+Country: Belgium, Germany, Canada, France, UK, Luxembourg
+ Language(s): English, Mohawk
+ Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+ ----------------
+ Movie Title: Legend
+ Year: 2015
+ Actors: Paul Anderson, Tom Hardy, Christopher Eccleston, Joshua Hill
+ IMDB Rating: 6.9
+ Rotten Tomatoes rating: 61%
+Country: UK, France, USA
+ Language(s): English
+ Plot: Identical twin gangsters Ronald and Reginald Kray terrorize London during the 1960s.
+ ----------------
+ Movie Title: Save the Last Dance
+ Year: 2001
+ Actors: Julia Stiles, Sean Patrick Thomas, Kerry Washington, Fredro Starr
+ IMDB Rating: 6.2
+ Rotten Tomatoes rating: 53/100
+Country: USA
+ Language(s): English
+ Plot: A white midwestern girl moves to Chicago, where her new boyfriend is a black teen from the South Side with a rough, semi-criminal past.
+ ----------------
