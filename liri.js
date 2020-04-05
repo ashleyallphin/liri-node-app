@@ -90,8 +90,12 @@ function switchCase() {
 
         //default case, if commandLine isn't recognized    
         default:
-            console.log("LIRI doesn't know that.")
-    
+            console.log("LIRI doesn't know that."
+            + "\r\n " + "Try the following commands:"
+            + "\r\n " + "'node liri.js concert-this <artist/band name here>'"
+            + "\r\n " + "'node liri.js spotify-this-song <song name here>'"
+            + "\r\n " + "'node liri.js movie-this <movie name here>'"
+            + "\r\n " + "'node liri.js do-what-it-says'")
     }
 }
 

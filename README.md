@@ -21,7 +21,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
    * `movie-this`
 
-   * `do-what-it-says1
+   * `do-what-it-says`
 
 
 
@@ -37,11 +37,11 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
      * Date of the Event (using moment to format this as "MM/DD/YYYY")
 
-    ![concert-this](images/concert-this.gif)
+     ![concert-this](images/concert-this.gif)
 
    * If the user doesn't type an artist in, the program will output concert data for 'Garth Brooks'.
 
-    ![concert-this Garth Brooks](images/concert-garth.gif)
+     ![concert-this Garth Brooks](images/concert-garth.gif)
     
 
 
@@ -56,7 +56,6 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
      * A preview link of the song from Spotify
 
      * The album that the song is from
-
 
     ![spotify-this-song GIF](images/spotify-this-song.gif)
 
@@ -101,6 +100,12 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
      * It will run `spotify-this-song` for "I Want it That Way," as the text requests in `random.txt`.
 
      ![do-what-it-says](images/do-what-it-says.gif)
+
+
+5. If the user types a command that LIRI doesn't recognize, LIRI suggests the following commands:
+
+     ![unknown command](images/something-else.gif)
+
 
 
 
