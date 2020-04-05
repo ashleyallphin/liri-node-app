@@ -21,7 +21,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
    * `movie-this`
 
-   * `do-what-it-says`
+   * `do-what-it-says1
 
 
 
@@ -37,7 +37,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
      * Date of the Event (using moment to format this as "MM/DD/YYYY")
 
-   * If the user doesn't type a movie in, the program will output concert data for 'Garth Brooks'.
+   * If the user doesn't type an artist in, the program will output concert data for 'Garth Brooks'.
 
      ![concert-this Garth Brooks]()
     
@@ -45,7 +45,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
-   * This will show the following information about the song in your terminal/bash window:
+   * This will show the following information about the song in the terminal/bash window:
 
      * Artist
 
@@ -93,8 +93,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
-     * It will run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-
+     * It will run `spotify-this-song` for "I Want it That Way," as the text requests in `random.txt`.
 
 
 
@@ -122,3 +121,23 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
    * [Moment](https://www.npmjs.com/package/moment)
 
    * [DotEnv](https://www.npmjs.com/package/dotenv)
+
+
+
+   ### Key Topics
+  * Node.js
+  * process.argv
+  * Client-server model
+  * Request-response pattern
+  * Axios
+  * fs
+
+
+
+  ### Learning Objectives
+  * Initialize a Node.js project from the command line
+  * Explain, import and utilize modules from the Node standard library
+  * Install and import third-party dependencies in a Node.js application
+  * Read, write and append files using the `fs` package
+  * Write command line applications that process arguments input by users
+  * Execute server-side HTTP requests to third-party APIs using Axios
